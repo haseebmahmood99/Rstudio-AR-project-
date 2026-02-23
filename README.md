@@ -115,24 +115,3 @@ Easy upgrades you can add next:
 
 ---
 
-## Troubleshooting
-
-**“Missing required column(s)”**  
-Make sure your Excel headers match exactly:  
-`Invoice Amount`, `Invoice Date`, `Due Date`, `Status`
-
-**“File not found”**  
-Put the Excel file in the same folder as the script, or set:
-```r
-file_path <- "C:/full/path/to/Invoice data R project.xlsx"
-```
-
-**Dates look wrong**  
-Ensure your Excel dates are real date cells (not text). If they are text, convert them in Excel or adjust parsing logic in R.
-
----
-
-## Author
-
-Haseeb Mahmood  
-(If you want, add your LinkedIn / email here.)
